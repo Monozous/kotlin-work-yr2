@@ -21,6 +21,6 @@ fun main (args: Array<String>) {
     val areaBeforeSQRT = (s) * (s-arg1) * (s-arg2) * (s-arg3)
     val area = Math.sqrt(areaBeforeSQRT.toDouble())
 
-    println("Area= $area")
+    println("Area = %.5f".format(area))
     
 }
