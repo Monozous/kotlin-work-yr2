@@ -6,5 +6,9 @@ import kotlin.io.path.readText
 import kotlin.io.path.writeText
 
 fun main() {
-    // Add your code here
+    val filePath = Path("src/test.txt")
+    val content = "My name is Sam"
+    filePath.appendText("His name was bolahan")
+
+    println("${filePath.readText()}")
 }
