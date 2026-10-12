@@ -2,7 +2,7 @@
 import kotlin.math.roundToInt
 
 fun main(args: Array<String>) {
-    
+    4
     if (args.size != 3) {
         println("Enter 3 Arguments")
     }
