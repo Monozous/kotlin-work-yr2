@@ -15,6 +15,20 @@ class MedianTest : FreeSpec({
             median(listOf())
         }
     }
+    "Exception when size=1" {
+        median(listOf(7f)) shouldBe 7f
+    }
 
+    "Exception when size=2" {
+        median(listOf(2f, 6f)) shouldBe 4f
+    }
+
+    "Exception when size=3" {
+        median(listOf(4f, 2f, 6f)) shouldBe 4f
+    }
+
+    "Exception when size=4" {
+        median(listOf(5f, -2f, 6f, 8f)) shouldBe 5.5f
+    }
     // Write four more tests here
 })
