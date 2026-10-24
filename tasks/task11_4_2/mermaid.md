@@ -23,7 +23,6 @@ classDiagram
         name
         description
     }
-classDiagram
   note "Placeholder for a real class diagram"
 ```
 
